@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="C:\Desktop\complete web development bootcamp\Project\logo.png">
+    <title>Spotify-Web Player:Music for Every one</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link 
+       rel="stylesheet" 
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+     />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>        
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option " >
+                        <img src="library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>  
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create Youre First Playlist</p>
+                        <p class="box-p2">Its easy We will help You</p>
+                        <button class="badge" style="color: black;">Create Playlist</button>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes </p>
+                        <button class="badge" style="color: black;">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="backward_icon.png" >
+                    <img src="./forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide" style="color: black;">Explore Premium</button>
+                    <button class="badge  nav-item dark-badge" ><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user  nav-item"></i>
+                </div>
+                
+            </div>
+            <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="card1img.jpg" >
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your Daily Updates of the most played Tracks</p>
+                    </div>
+                </div>
+                
+                <h2>Made For Bobby</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="card6img.jpg" >
+                        <p class="card-title">Top song India</p>
+                        <p class="card-info">Your Daily Updates of the most played Tracks</p>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="card2img.jpg" >
+                        <p class="card-title">Love Song</p>
+                        <p class="card-info">Your Daily Updates of the most played Tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card3img..jpg" >
+                        <p class="card-title">Hindi famous</p>
+                        <p class="card-info">Your Daily Updates of the most played Tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card4img.jpg" >
+                        <p class="card-title">Top </p>
+                        <p class="card-info">Your Daily Updates of the most played Tracks</p>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="card5img.jpg" >
+                        <p class="card-title">Hindi Song</p>
+                        <p class="card-info">Your Daily Updates of the most played Tracks</p>
+                    </div>
+
+                </div>
+                <h2>Made For saya</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="card1img.jpg" >
+                        <p class="card-title">Love Masup</p>
+                        <p class="card-info">Your Daily Updates of the most played Tracks</p>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="card2img.jpg" >
+                        <p class="card-title">Workout song</p>
+                        <p class="card-info">Your Daily Updates of the most played Tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card3img..jpg" >
+                        <p class="card-title">Silent Song</p>
+                        <p class="card-info">Your Daily Updates of the most played Tracks</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+            </div>
+        
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="album_picture.jpeg.jpg" class="three" >
+                <div class="text">
+                    <h3>Ye Dil Hai Mush.</h3>
+                    <p>for most played item song..</p>
+                </div>
+                <img src="album_icon1.png" >
+                
+            </div>
+            <div class="player">
+                <div class="playercontrol">
+                    <img src="player_icon1.png" class="player-icon">
+                    <img src="player_icon2.png" class="player-icon">
+                    <img src="player_icon3.png" class="player-icon" style="opacity: 1;height:2rem;">
+                    <img src="player_icon4.png" class="player-icon">
+                    <img src="player_icon5.png" class="player-icon">
+                </div>
+                <div class="progress">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="bar">
+                    <span class="total-time">03:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="controls_icon1.png" class="con-icon one">
+                <img src="controls_icon3.png" class="con-icon ">
+                <img src="controls_icon4.png" class="con-icon ">
+                <img src="controls_icon5.png" class="con-icon one">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
